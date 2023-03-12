@@ -1,0 +1,11 @@
+containers:
+  - name: webserver
+    priority: 1
+    wait_time: 30
+    cpu_threshold: 80
+    memory_threshold: 80
+  - name: database
+    priority: 2
+    wait_time: 60
+    cpu_threshold: 70
+    memory_threshold: 70
